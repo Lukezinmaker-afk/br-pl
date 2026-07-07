@@ -352,7 +352,7 @@ local tooltip = {} do
                 shadow.AnchorPoint = Vector2.new(0.5, 0.5)
                 shadow.BackgroundTransparency = 1
                 shadow.BorderSizePixel = 0 
-                shadow.Image = 'rbxassetid://86637771784002'
+                shadow.Image = 'rbxassetid://135581007252357'
                 shadow.ImageColor3 = Color3.fromRGB(0, 0, 5)
                 shadow.Name = '#shadow'
                 shadow.Position = UDim2.fromScale(0.5, 0.5)
@@ -532,7 +532,7 @@ local hint = {} do
                 shadow.AnchorPoint = Vector2.new(0.5, 0.5)
                 shadow.BackgroundTransparency = 1
                 shadow.BorderSizePixel = 0 
-                shadow.Image = 'rbxassetid://86637771784002'
+                shadow.Image = 'rbxassetid://135581007252357'
                 shadow.ImageColor3 = Color3.fromRGB(0, 0, 5)
                 shadow.Name = '#shadow'
                 shadow.Position = UDim2.fromScale(0.5, 0.5)
@@ -757,7 +757,7 @@ do
             
             window.minimized = false -- is minimized
             window.size = UDim2.fromOffset(450, 350) -- current win size
-            window.icon = nil--'rbxassetid://131910992128264'
+            window.icon = nil--'rbxassetid://83800328873079'
             window.minFocused = false
             
             local instances = {} do 
@@ -805,7 +805,7 @@ do
                     shadow.AnchorPoint = Vector2.new(0.5, 0.5)
                     shadow.BackgroundTransparency = 1
                     shadow.BorderSizePixel = 0 
-                    shadow.Image = 'rbxassetid://86637771784002'
+                    shadow.Image = 'rbxassetid://135581007252357'
                     shadow.ImageColor3 = Color3.fromRGB(0, 0, 5)
                     shadow.Name = '#shadow'
                     shadow.Position = UDim2.fromScale(0.5, 0.5)
@@ -977,7 +977,7 @@ do
                             icon.Active = false
                             icon.BackgroundTransparency = 1
                             icon.BorderSizePixel = 0
-                            icon.Image = 'rbxassetid://78560728097445'
+                            icon.Image = 'rbxassetid://87829424069737'
                             icon.ImageColor3 = Color3.fromRGB(255, 255, 255)
                             icon.Name = '#icon'
                             icon.Position = UDim2.fromOffset(0, 0)
@@ -1004,7 +1004,7 @@ do
                     local icon = Instance.new('ImageLabel') do 
                         icon.BackgroundTransparency = 1
                         icon.BorderSizePixel = 0
-                        icon.Image = 'rbxassetid://71997070326690'
+                        icon.Image = 'rbxassetid://112689598048116'
                         icon.ImageColor3 = Color3.fromRGB(255, 255, 255)
                         icon.ImageTransparency = 0
                         icon.Name = '#icon'
@@ -1142,9 +1142,9 @@ do
                         menu.AutomaticCanvasSize = 'Y'
                         menu.BackgroundTransparency = 1
                         menu.BorderSizePixel = 0
-                        menu.BottomImage = 'rbxassetid://128113052596435'
+                        menu.BottomImage = 'rbxassetid://127199261146221'
                         menu.CanvasSize = UDim2.fromOffset(0, 0)
-                        menu.MidImage = 'rbxassetid://128113052596435'
+                        menu.MidImage = 'rbxassetid://127199261146221'
                         menu.Name = '#menu'
                         menu.Position = UDim2.fromOffset(1, 1)
                         menu.ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255)
@@ -1153,7 +1153,7 @@ do
                         menu.ScrollingDirection = 'Y'
                         menu.ScrollingEnabled = true
                         menu.Size = UDim2.new(1, -2, 1, -2)
-                        menu.TopImage = 'rbxassetid://128113052596435'
+                        menu.TopImage = 'rbxassetid://127199261146221'
                         menu.Visible = true
                         menu.ZIndex = 51
                         
@@ -1182,7 +1182,7 @@ do
                 -- resize handle
                 local resizeHandle = Instance.new('ImageLabel') do 
                     resizeHandle.BackgroundTransparency = 1
-                    resizeHandle.Image = 'rbxassetid://73246695790573'
+                    resizeHandle.Image = 'rbxassetid://109108818888208'
                     resizeHandle.ImageColor3 = theme.Primary
                     resizeHandle.Name = '#resize-handle'
                     resizeHandle.Position = UDim2.new(1, -10, 1, -10)
@@ -1518,7 +1518,7 @@ do
                 
                 if (newState) then
                     tween(mf, {Size = UDim2.fromOffset(self.size.X.Offset, 26)}, 0.3, 1)
-                    bminIcon.Image = 'rbxassetid://71090284881153'
+                    bminIcon.Image = 'rbxassetid://117502586983132'
                     
                     tween(bminIcon, {
                         Rotation = 45,
@@ -1534,7 +1534,7 @@ do
                     mf['#sidebar'].Visible = false
                 else
                     tween(mf, {Size = self.size}, 0.3, 1)
-                    bminIcon.Image = 'rbxassetid://77220732168090'
+                    bminIcon.Image = 'rbxassetid://121949637646649'
                     tween(bminIcon, {
                         Rotation = 0,
                         ImageColor3 = Color3.fromRGB(255, 255, 255)
@@ -1606,7 +1606,7 @@ do
                     tween(chromaButton['#icon'], {Rotation = 360}, 0.5, 1)
                     tween(self.instances.speedSlider, {Position = UDim2.new(0, 4, 1, -24)}, 0.5, 1)
                     
-                    chromaButton['#icon'].Image = 'rbxassetid://78919590198910'
+                    chromaButton['#icon'].Image = 'rbxassetid://83752748130181'
                     self:fireEvent('chroma', true)
                     
                 else
@@ -1617,7 +1617,7 @@ do
                     end
                     tween(chromaButton['#icon'], {Rotation = 0}, 0.5, 1)
                     tween(self.instances.speedSlider, {Position = UDim2.new(0, -44, 1, -24)}, 0.5, 1)
-                    chromaButton['#icon'].Image = 'rbxassetid://110323227384660'
+                    chromaButton['#icon'].Image = 'rbxassetid://78441084883630'
                     
                     self:fireEvent('chroma', false)
                 end
@@ -1728,7 +1728,7 @@ do
                     shadow.AnchorPoint = Vector2.new(0.5, 0.5)
                     shadow.BackgroundTransparency = 1
                     shadow.BorderSizePixel = 0 
-                    shadow.Image = 'rbxassetid://86637771784002'
+                    shadow.Image = 'rbxassetid://135581007252357'
                     shadow.ImageColor3 = Color3.fromRGB(0, 0, 5)
                     shadow.Name = '#shadow'
                     shadow.Position = UDim2.fromScale(0.5, 0.5)
@@ -1899,7 +1899,7 @@ do
                             icon.Active = false
                             icon.BackgroundTransparency = 1
                             icon.BorderSizePixel = 0
-                            icon.Image = 'rbxassetid://78560728097445'
+                            icon.Image = 'rbxassetid://87829424069737'
                             icon.ImageColor3 = Color3.fromRGB(255, 255, 255)
                             icon.Name = '#icon'
                             icon.Position = UDim2.fromOffset(0, 0)
@@ -1926,7 +1926,7 @@ do
                     local icon = Instance.new('ImageLabel') do 
                         icon.BackgroundTransparency = 1
                         icon.BorderSizePixel = 0
-                        icon.Image = 'rbxassetid://97681139616710'
+                        icon.Image = 'rbxassetid://87421858308108'
                         icon.ImageColor3 = Color3.fromRGB(255, 255, 255)
                         icon.ImageTransparency = 0
                         icon.Name = '#icon'
@@ -2012,7 +2012,7 @@ do
                         local picker = Instance.new('ImageLabel') do 
                             picker.AnchorPoint = Vector2.new(0.5, 0.5)
                             picker.BackgroundTransparency = 1
-                            picker.Image = 'rbxassetid://106579872379407'
+                            picker.Image = 'rbxassetid://137377321715620'
                             picker.Name = '#picker'
                             picker.Position = UDim2.fromScale(0.5, 0.5)
                             picker.Size = UDim2.fromScale(0.7, 0.7)
@@ -2428,7 +2428,7 @@ do
                                 icon.Active = false
                                 icon.BackgroundTransparency = 1
                                 icon.BorderSizePixel = 0
-                                icon.Image = 'rbxassetid://110323227384660'--'rbxassetid://78919590198910'
+                                icon.Image = 'rbxassetid://78441084883630'--'rbxassetid://83752748130181'
                                 icon.ImageColor3 = Color3.fromRGB(255, 255, 255)
                                 icon.Name = '#icon'
                                 icon.Position = UDim2.fromOffset(0, 0)
@@ -3790,7 +3790,7 @@ do
                 
                 if (newState) then
                     tween(mf, {Size = UDim2.fromOffset(300, 26)}, 0.3, 1)
-                    bminIcon.Image = 'rbxassetid://71090284881153'
+                    bminIcon.Image = 'rbxassetid://117502586983132'
                     
                     tween(bminIcon, {
                         Rotation = 45,
@@ -3805,7 +3805,7 @@ do
                     mf['#region'].Visible = false
                 else
                     tween(mf, {Size = UDim2.fromOffset(300, 300)}, 0.3, 1)
-                    bminIcon.Image = 'rbxassetid://77220732168090'
+                    bminIcon.Image = 'rbxassetid://121949637646649'
                     tween(bminIcon, {
                         Rotation = 0,
                         ImageColor3 = Color3.fromRGB(255, 255, 255)
@@ -3842,8 +3842,8 @@ do
                     menuFrame.AutomaticCanvasSize = 'Y'
                     menuFrame.BackgroundTransparency = 1
                     menuFrame.BorderSizePixel = 0 
-                    menuFrame.BottomImage = 'rbxassetid://128113052596435'
-                    menuFrame.MidImage = 'rbxassetid://128113052596435'
+                    menuFrame.BottomImage = 'rbxassetid://127199261146221'
+                    menuFrame.MidImage = 'rbxassetid://127199261146221'
                     menuFrame.Name = '#menuFrame'
                     menuFrame.Position = UDim2.fromOffset(1, 1)
                     menuFrame.ScrollBarImageTransparency = 0.9
@@ -3851,7 +3851,7 @@ do
                     menuFrame.ScrollingDirection = 'Y'
                     menuFrame.ScrollingEnabled = true
                     menuFrame.Size = UDim2.new(1, -2, 1, -2)
-                    menuFrame.TopImage = 'rbxassetid://128113052596435'
+                    menuFrame.TopImage = 'rbxassetid://127199261146221'
                     menuFrame.Visible = true
                     menuFrame.ZIndex = 30
                     
@@ -4221,7 +4221,7 @@ do
                             icon.BackgroundTransparency = 1
                             icon.BorderSizePixel = 0
                             icon.Rotation = 180
-                            icon.Image = 'rbxassetid://107447334528049'
+                            icon.Image = 'rbxassetid://73104989570756'
                             icon.ImageColor3 = Color3.fromRGB(255, 255, 255)
                             icon.Name = '#icon'
                             icon.Position = UDim2.fromOffset(0, 0)
@@ -4524,7 +4524,7 @@ do
                                 icon.Active = false
                                 icon.BackgroundTransparency = 1
                                 icon.BorderSizePixel = 0
-                                icon.Image = 'rbxassetid://105265947340958'
+                                icon.Image = 'rbxassetid://125790265808552'
                                 icon.ImageColor3 = theme.Secondary
                                 icon.Name = '#icon'
                                 icon.Position = UDim2.fromOffset(0, 0)
@@ -4564,7 +4564,7 @@ do
                 
                 
                 if (newState) then
-                    icon.Image = 'rbxassetid://129596849810720'
+                    icon.Image = 'rbxassetid://99620212058987'
                     tween(icon, {
                         Rotation = 0,
                         ImageColor3 = theme.Primary
@@ -4579,7 +4579,7 @@ do
                     
                     self:fireEvent('onEnable')
                 else
-                    icon.Image = 'rbxassetid://105265947340958'
+                    icon.Image = 'rbxassetid://125790265808552'
                     tween(icon, {
                         Rotation = 360,
                         ImageColor3 = theme.Secondary
@@ -4607,7 +4607,7 @@ do
                 local toggle = self.instances.toggle
                 local icon = toggle['#icon']
 
-                icon.Image = 'rbxassetid://129596849810720'
+                icon.Image = 'rbxassetid://99620212058987'
                 tween(icon, {
                     Rotation = 0,
                     ImageColor3 = theme.Primary
@@ -4632,7 +4632,7 @@ do
                 local toggle = self.instances.toggle
                 local icon = toggle['#icon']
                 
-                icon.Image = 'rbxassetid://105265947340958'
+                icon.Image = 'rbxassetid://125790265808552'
                 tween(icon, {
                     Rotation = 360,
                     ImageColor3 = theme.Secondary
@@ -4841,7 +4841,7 @@ do
                                     icon.Active = false
                                     icon.BackgroundTransparency = 1
                                     icon.BorderSizePixel = 0
-                                    icon.Image = 'rbxassetid://129941313717335'
+                                    icon.Image = 'rbxassetid://137871872730937'
                                     icon.ImageColor3 = Color3.fromRGB(255, 255, 255)
                                     icon.Name = '#icon'
                                     icon.Position = UDim2.fromOffset(0, 0)
@@ -5325,7 +5325,7 @@ do
                             local icon = Instance.new('ImageLabel') do 
                                 icon.AnchorPoint = Vector2.new(1, 0)
                                 icon.BackgroundTransparency = 1
-                                icon.Image = 'rbxassetid://116928968530386'
+                                icon.Image = 'rbxassetid://97942173432912'
                                 icon.ImageColor3 = theme.Secondary
                                 icon.Name = '#icon'
                                 icon.Position = UDim2.fromScale(1, 0)
@@ -5354,10 +5354,10 @@ do
                         local menu = Instance.new('ScrollingFrame') do 
                             menu.BackgroundColor3 = theme.Window3
                             menu.BorderSizePixel = 0
-                            menu.BottomImage = 'rbxassetid://128113052596435'
+                            menu.BottomImage = 'rbxassetid://127199261146221'
                             menu.ClipsDescendants = true
                             menu.CanvasSize = UDim2.fromOffset(0, 0)
-                            menu.MidImage = 'rbxassetid://128113052596435'
+                            menu.MidImage = 'rbxassetid://127199261146221'
                             menu.Name = '#menu'
                             menu.Position = UDim2.fromOffset(3, 20)
                             menu.ScrollBarImageTransparency = 0.9
@@ -5365,7 +5365,7 @@ do
                             menu.ScrollingDirection = 'Y'
                             menu.ScrollingEnabled = true
                             menu.Size = UDim2.new(1, -6, 0, 0)
-                            menu.TopImage = 'rbxassetid://128113052596435'
+                            menu.TopImage = 'rbxassetid://127199261146221'
                             menu.ZIndex = 34
                             
                             menu.Parent = controlFrame
@@ -5585,7 +5585,7 @@ do
                             local icon = Instance.new('ImageLabel') do 
                                 icon.AnchorPoint = Vector2.new(1, 0)
                                 icon.BackgroundTransparency = 1
-                                icon.Image = 'rbxassetid://116928968530386'
+                                icon.Image = 'rbxassetid://97942173432912'
                                 icon.ImageColor3 = theme.Secondary
                                 icon.Name = '#icon'
                                 icon.Position = UDim2.fromScale(1, 0)
@@ -5614,10 +5614,10 @@ do
                         local menu = Instance.new('ScrollingFrame') do 
                             menu.BackgroundColor3 = theme.Window3
                             menu.BorderSizePixel = 0
-                            menu.BottomImage = 'rbxassetid://128113052596435'
+                            menu.BottomImage = 'rbxassetid://127199261146221'
                             menu.ClipsDescendants = true
                             menu.CanvasSize = UDim2.fromOffset(0, 0)
-                            menu.MidImage = 'rbxassetid://128113052596435'
+                            menu.MidImage = 'rbxassetid://127199261146221'
                             menu.Name = '#menu'
                             menu.Position = UDim2.fromOffset(3, 18)
                             menu.ScrollBarImageTransparency = 0.9
@@ -5625,7 +5625,7 @@ do
                             menu.ScrollingDirection = 'Y'
                             menu.ScrollingEnabled = true
                             menu.Size = UDim2.new(1, -6, 0, 0)
-                            menu.TopImage = 'rbxassetid://128113052596435'
+                            menu.TopImage = 'rbxassetid://127199261146221'
                             menu.ZIndex = 34
                             
                             menu.Parent = controlFrame
@@ -7094,7 +7094,7 @@ do
                         shadow.AnchorPoint = Vector2.new(0.5, 0.5)
                         shadow.BackgroundTransparency = 1
                         shadow.BorderSizePixel = 0 
-                        shadow.Image = 'rbxassetid://86637771784002'
+                        shadow.Image = 'rbxassetid://135581007252357'
                         shadow.ImageColor3 = Color3.fromRGB(0, 0, 5)
                         shadow.Name = '#shadow'
                         shadow.Position = UDim2.fromScale(0.5, 0.5)
@@ -7173,7 +7173,7 @@ do
                         local icon = Instance.new('ImageLabel') do 
                             icon.BackgroundTransparency = 1
                             icon.BorderSizePixel = 0
-                            icon.Image = 'rbxassetid://79789256667773'
+                            icon.Image = 'rbxassetid://71999741879506'
                             icon.ImageColor3 = theme.Primary
                             icon.ImageTransparency = 0
                             icon.Name = '#icon'
